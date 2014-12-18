@@ -1,0 +1,39 @@
+<h1> Idea Box</h1>
+<div id="your_ideas">
+  <form action='/' method='POST'>
+    <p> Your Ideas</p>
+    <input type='text' name='idea[title]' placeholder="Place Idea Title"/><br/>
+    <textarea name='idea[description]' placeholder="Whats your Idea?"></textarea><br/>
+    <input type='text' name='idea[resources]' placeholder="Resources"/><br/>
+    <input type='submit'/>
+  </form>
+</div>
+  <h3> Existing Ideas</h3>
+
+  <div id="existing_ideas">
+  <table class="table table-hover">
+    <% ideas.each_with_index do |idea, id| %>
+    <tr>
+      <td>
+        <form action='/<%= idea.id %>/like' method='POST' style="display: inline">
+        <input type='submit' value="Like"/>
+        </form>
+      </td>
+      <td><%= idea.title %></td>
+      <td><%= idea.description %></td>
+      <td><a href="/<%= id %>/edit">Edit</a></td>
+      <td>
+        <form action="/<%= id %>" method="POST">
+          <input type="hidden" name="_method" value="DELETE">
+          <input type="submit" value="delete"/>
+        </form>
+      </td>
+      <td>
+      <form action="/<%= id %>/details" method="GET">
+        <input type="submit" value="details"/>
+      </form>
+      </td>
+  </tr>
+  <% end %>
+</table>
+</div>

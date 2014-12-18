@@ -1,0 +1,93 @@
+body {
+  font-family: cursive;
+  font-weight: bold;
+  color: white;
+  background: url(images/deer-astronaut.jpg)   no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+input, textarea {
+  border: 5px solid #f4edd2;
+  -webkit-box-shadow:
+  inset 0 0 8px  rgba(0,0,0,0.1),
+  0 0 16px rgba(0,0,0,0.1);
+  -moz-box-shadow:
+  inset 0 0 8px  rgba(0,0,0,0.1),
+  0 0 16px rgba(0,0,0,0.1);
+  box-shadow:
+  inset 0 0 8px  rgba(0,0,0,0.1),
+  0 0 16px rgba(0,0,0,0.1);
+  padding: 15px;
+  background: rgba(255,255,255,0.5);
+  margin: 0 0 10px 0;
+  border-radius: 20px;
+}
+
+a {
+  color: white;
+  font-family: cursive;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: brown;
+}
+
+h1 {
+  color: #f4edd2;
+  font-size: 100px;
+  text-align: center;
+}
+
+
+input[type=submit] {
+  background-color: silver;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 1px;
+  border-radius:10px;
+  color: #fff;
+  font-family: 'Oswald';
+  font-size: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  border:none;
+}
+
+#your_ideas {
+  text-align: center;
+}
+
+p {
+  color: silver;
+  font-size: 20px;
+}
+
+
+#existing_ideas {
+  font-size: 20px;
+}
+
+#existing_ideas li {
+  list-style-type: none;
+}
+
+table p {
+  color:white;
+  font-family: 'Oswald';
+}
+
+table {
+  background-color: #98baab;
+  border: 5px solid #f4edd2;
+  border-radius: 20px;
+}
+
+table h3 {
+  font-size: 30px;
+  color: silver;
+}

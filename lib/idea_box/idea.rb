@@ -20,7 +20,7 @@ class Idea
   def generate_link(resources)
     if resources.nil?
       resources
-    elsif resources.match(/^http:\/\/www.\w+.\w{2,3}$/)
+    elsif resources.match(/^http:\/\/www.\w+.\w{2,3}/)
       self.resources = "<a href='#{resources}'>#{resources}</a>"
     else
       resources

@@ -3,9 +3,6 @@ body {
   font-weight: bold;
   color: white;
   background: url(images/deer-astronaut.jpg)   no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -47,8 +44,6 @@ h1 {
 
 input[type=submit] {
   background-color: silver;
-  /*-moz-border-radius: 3px;
-  -webkit-border-radius: 1px;*/
   border-radius:10px;
   color: #fff;
   font-family: 'Oswald';
@@ -64,27 +59,18 @@ input[type=submit] {
 }
 
 p {
-  color: silver;
-  font-size: 20px;
-}
-
-#existing_ideas li {
-  list-style-type: none;
-  font-size: 50px;
-}
-
-table p {
-  color:white;
-  font-family: 'Oswald';
+  color: #5C2E00;
+  font-size: 30px;
 }
 
 table {
   background-color: #98baab;
   border: 5px solid #f4edd2;
   border-radius: 20px;
+  padding: 50px;
 }
 
-table h3 {
+h3 {
   font-size: 30px;
-  color: silver;
+  color: #5C2E00;
 }

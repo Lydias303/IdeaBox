@@ -1,12 +1,14 @@
 ---
 ideas:
-- title: Guess what?
-  description: 'I am writing an idea and it is amazing.. '
-  rank: 1
-  resources: 
-- title: " Seating"
-  description: Double Decker Couch
-  resources: LEGO Movie
-- title: Idea
-  description: Lalal
+- title: test
+  description: test
+  resources: test
+- title: asdf
+  description: sdf
   resources: www.etsy.com
+- title: asdf
+  description: asdf
+  resources: dsf
+- title: test
+  description: test
+  resources: "<a href='http://www.etsy.com'>http://www.etsy.com</a>"

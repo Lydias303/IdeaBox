@@ -47,8 +47,8 @@ h1 {
 
 input[type=submit] {
   background-color: silver;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 1px;
+  /*-moz-border-radius: 3px;
+  -webkit-border-radius: 1px;*/
   border-radius:10px;
   color: #fff;
   font-family: 'Oswald';
@@ -60,6 +60,7 @@ input[type=submit] {
 
 #your_ideas {
   text-align: center;
+  font-size: 50px;
 }
 
 p {
@@ -67,13 +68,9 @@ p {
   font-size: 20px;
 }
 
-
-#existing_ideas {
-  font-size: 20px;
-}
-
 #existing_ideas li {
   list-style-type: none;
+  font-size: 50px;
 }
 
 table p {

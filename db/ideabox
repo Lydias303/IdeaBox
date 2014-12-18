@@ -2,9 +2,11 @@
 ideas:
 - title: Guess what?
   description: 'I am writing an idea and it is amazing.. '
+  rank: 1
+  resources: 
 - title: " Seating"
   description: Double Decker Couch
   resources: LEGO Movie
 - title: Idea
-  description: blah
+  description: Lalal
   resources: www.etsy.com

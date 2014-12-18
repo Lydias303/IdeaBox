@@ -4,11 +4,6 @@ class IdeaBoxApp < Sinatra::Base
   set :method_override, true
   set :root, 'lib/app'
 
-  get '/playground' do
-    @adjective =["nice", "alright", "decent"]
-    erb :playground
-   end
-
   not_found do
     erb :error
   end

@@ -41,11 +41,11 @@ class IdeaStore
   def self.database
     return @database if @database
 
-    @database ||= YAML::Store.new("db/ideabox")
-    @database.transaction do
+      @database ||= YAML::Store.new("db/ideabox")
+      @database.transaction do
       @database['ideas'] ||= []
     end
-    @database
+     @database
   end
 
   def self.create(attributes)

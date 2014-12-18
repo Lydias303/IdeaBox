@@ -12,9 +12,18 @@ class Idea
     @resources = attributes["resources"]
   end
 
+  #generate_link(attributes["resources"])
   def save
     IdeaStore.create(to_h)
   end
+
+  # def generate_link(resources)
+  #   if resources.match(/^www.\w+.\w{2,3}$/)
+  #     self.resources = "<a href='#{resources}'>Some Name</a>"
+  #   else
+  #     resources
+  #   end
+  # end
 
   def to_h
     {
